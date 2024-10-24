@@ -7,6 +7,9 @@
         box-sizing: border-box;
     }
 
+
+    /* NAVBAR */ 
+
     header {
 
         width: 100%;
@@ -90,7 +93,7 @@
     
 
  
-
+        /* MOBILE */
   
 
    @media screen and (max-width:750px) {
@@ -165,7 +168,7 @@
         align-content: center;
     }
 
-   
+    /* VIDEO */
 
     #video video {
         max-width: 100%;
@@ -187,8 +190,8 @@
 
     #grafico-paes {
         display: block;
-        max-width: 600px; /* Ajuste máximo */
-        max-height: 400px; /* Define altura máxima */
+        max-width: 600px; 
+        max-height: 400px; 
         margin: 0 auto;
     }
 
@@ -209,7 +212,7 @@
    
 
    
-
+      /* PAGINA INICIAL  */
 
    #home {
     display: flex;
@@ -328,6 +331,9 @@
 
    }
 
+
+   /* PRODUTOS */
+
    #produtos {
 
     display: flex;
@@ -349,9 +355,9 @@
 
    #paes {
     display: flex;
-    flex-wrap: wrap; /* Permite que os produtos se ajustem em linhas */
+    flex-wrap: wrap; 
     justify-content: center;
-    gap: 24px; /* Espaço entre os produtos */
+    gap: 24px; 
     padding: 20px;
 }
 
@@ -362,7 +368,7 @@
     border-radius: 8px;
     padding: 16px;
     background-color: #fff;
-    position: relative; /* Para posicionar o ícone de coração corretamente */
+    position: relative; 
     transition: transform 0.2s;
 }
 
@@ -370,14 +376,14 @@
     transform: scale(1.05);
 }
 
-/* Nova classe específica para a imagem do produto */
+
 .produto-imagem {
     width: 100%;
     height: auto;
     max-height: 150px;
     border-radius: 8px;
     object-fit: cover;
-    display: block; /* Garante que a imagem sempre seja exibida */
+    display: block; 
 }
 
 .produto-coracao {
@@ -385,22 +391,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 8px;  /* Ajuste fino da posição vertical */
-    right: 8px; /* Ajuste fino da posição horizontal */
+    top: 8px; 
+    right: 8px; 
     width: 42px;
     height: 42px;
     font-size: 1.5rem;
     background-color: #e9a209;
     color: #fff;
-    border-radius: 0 16px 0 16px; /* Ajuste de bordas arredondadas */
+    border-radius: 0 16px 0 16px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .produto-coracao:hover {
-    transform: scale(1.1); /* Efeito de zoom */
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2); /* Sombra maior ao passar o mouse */
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .produto-coracao i:hover {
@@ -429,6 +435,8 @@
 
 }
 
+/* GRAFICO */
+
 #grafico {
     height: 100%;
     width: 100%;  
@@ -443,6 +451,8 @@
     max-height: 600px; 
     margin: 0 auto;
 }
+
+/* SOBRE NOS */
 
 
 #sobrenos {
@@ -503,7 +513,7 @@
 
 
 
-
+ /* LOCALIZACAO */
 
 #mapa-localizacao {
     display: flex;
@@ -528,6 +538,14 @@
   #mapa-localizacao h2 i {
     color: #e9a209;
     font-size: 2rem;
+  }
+
+  .endereco {
+    font-size: 1.2rem;
+    color: #1d1d1d;
+    margin-bottom: 24px; 
+    font-weight: 500;
+    text-align: center;
   }
   
  
