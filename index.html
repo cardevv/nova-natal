@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Nova Natal</title>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-tree" id="novanatal-logo"> NOVA NATAL</i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#produtos">Produtos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#sobrenos">Sobre Nós</a>
+                </li>
+                    
+                
+
+                <li class="nav-item"> <a href="#mapa-localizacao">Localização</a></li>
+                   
+           
+                
+            </ul>
+            <button class="btn-default">
+                Contate-nos
+
+            </button>
+            <button id="btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+                
+            </button>
+          
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#produtos">Produtos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#sobrenos">Sobre Nós</a>
+                </li>
+                    
+                
+
+                <li class="nav-item"> <a href="#mapa-localizacao">Localização</a></li>
+                   
+           
+                
+            </ul>
+
+            <button id="contato-btn" class="btn-default">
+                Contate-nos
+
+            </button>
+          
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                        Qualidade e preço baixo perto de <span>você</span>
+                </h1>
+                <p class="descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque odit fugit qui commodi, facilis aliquid aliquam quaerat ratione iure itaque, aut harum pariatur adipisci rem voluptate fuga id eius.
+                </p>
+                <div id="cta-buttons">
+                    <a href="#produtos" class="btn-default">Ver produtos</a>
+                    <a href="#" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                           
+                        </button>
+                        <p class="numero-tel">(13)999-999</p>
+                    </a>
+                </div>
+
+                <div class="social-media">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+        
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+    
+            </div>
+    
+            
+    
+            <div id="video">
+                <video controls 
+                width="800px"
+                height="600px"
+                src="src/videos/Tour 3D da nova Padaria Sayonara_ padaria com design Moderna e Familiar.mp4"></video>
+    
+            </div>
+
+        </section>
+
+        <section id="produtos">
+            <h2 class="section-title">Produtos</h2>
+            <h3 class="section-subtitle">Nossos principais pães</h3>
+            <div id="paes">
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/hotdog.jpg" class="produto-imagem">
+                    <h3>Pão de Hot dog</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+              
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/paohamburg2.jpg" class="produto-imagem">
+                    <h3>Pão de Hamburguer</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/media.jpg" class="produto-imagem">
+                    <h3>Média</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/paodemilho.png" class="produto-imagem">
+                    <h3>Pão de Milho</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/paocara.jpg" class="produto-imagem">
+                    <h3>Pão Cara</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+                <div class="pao">
+                    <div class="produto-coracao">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/fotos/paococo.webp" class="produto-imagem">
+                    <h3>Pão de Coco</h3>
+                    <p class="produto-descricao">
+                        descricao foda
+                    </p>
+                    <div class="produto-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+            <section id="grafico">
+                <h2>Pães Mais Vendidos</h2>
+                <canvas id="grafico-paes"></canvas>
+            </section>
+            
+        </section>
+       
+    </main>
+    <section id="sobrenos">
+        <h1>Sobre Nós</h1>
+        <p class="descricao">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus nihil placeat dignissimos quod veritatis. 
+            Dicta dignissimos itaque in perferendis. Corrupti, error debitis dolores blanditiis voluptas ipsum sequi amet 
+            commodi id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum fugiat totam placeat, eum vitae 
+            qui voluptates expedita impedit earum consequatur, laborum magnam similique fuga in harum laboriosam sequi sed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit incidunt deleniti voluptas voluptates et tempore, 
+            ab fuga obcaecati commodi dolorum minus necessitatibus inventore consequuntur iste. Consequatur, quasi? Quidem, culpa.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nulla praesentium blanditiis, magni et nihil optio 
+            necessitatibus! Accusamus, cumque facilis laborum tempora a consectetur minima vero. In molestiae maxime reprehenderit.
+        </p>
+    
+        <div class="galeria-fotos">
+            <div class="foto">Foto 1</div>
+            <div class="foto">Foto 2</div>
+            <div class="foto">Foto 3</div>
+            <div class="foto">Foto 4</div>
+        </div>
+    </section>
+    
+
+    <section id="mapa-localizacao">
+        <h2><i class="fa-solid fa-location-dot"></i> Nossa Localização</h2>
+        <div class="mapa-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d911.6373135101744!2d-46.302211871561845!3d-23.94101029865319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03ebecb7c663%3A0x25785d4b9eab09b0!2sR.%20Vinte%20e%20Quatro%20de%20Agosto%2C%2082%20-%20Vila%20Alice%20(Vicente%20de%20Carvalho)%2C%20Guaruj%C3%A1%20-%20SP%2C%2011450-230!5e0!3m2!1spt-BR!2sbr!4v1729713024251!5m2!1spt-BR!2sbr" 
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </section>
+      
+    
+      
+      
+    
+</body>
+<script src="javascript/script.js"></script>
+</html>
