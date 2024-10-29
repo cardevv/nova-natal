@@ -28,10 +28,18 @@
         
     }
 
-    #novanatal-logo {
-        font-size: 24px;
-        color: rgb(8, 106, 8);
 
+    
+    #novanatal-logo {
+        height: 180px;
+        width: auto;
+        margin-right: 10px; 
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+    #novanatal-logo:hover {
+        transform: scale(1.1);
+        opacity: 0.9;
     }
 
     #nav-list {
@@ -99,6 +107,15 @@
    @media screen and (max-width:750px) {
     #nav-list , #navbar .btn-default{
         display: none;
+    }
+
+
+
+    #novanatal-logo {
+        height: 120px;
+        width: auto;
+        margin-right: 10px; 
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     #btn-mobile {
