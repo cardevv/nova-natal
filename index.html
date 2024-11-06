@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="src/fotos/favicon-32x32.png">
+   
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
+
 
     <title>Nova Natal</title>
 
@@ -94,7 +99,7 @@
                             <i class="fa-solid fa-phone"></i>
                            
                         </button>
-                        <p class="numero-tel">(13)999-999</p>
+                        <p class="numero-tel">(13)999-9999</p>
                     </a>
                 </div>
 
@@ -265,12 +270,48 @@
 
             Desde o nosso retorno, continuamos a oferecer produtos de qualidade, feitos com carinho e dedicação. Acreditamos que cada pão conta uma história e queremos compartilhar um pouco do nosso legado em cada mordida. Venha nos conhecer e faça parte dessa tradição!
         </p>
+        <div>
+            <img src="src/fotos/infografico.png" alt="Infográfico da Padaria Nova Natal" class="infografico">
+        </div>
+        
+        
     
         <div class="galeria-fotos">
-            <div class="foto">Foto 1</div>
-            <div class="foto">Foto 2</div>
-            <div class="foto">Foto 3</div>
-            <div class="foto">Foto 4</div>
+            <div class="foto-container">
+                <div class="foto" onclick="openModal('src/fotos/2011.jpg')">
+                    <img src="src/fotos/2011.jpg" alt="Foto de 2011">
+                </div>
+                <div class="foto-data">2011</div>
+            </div>
+        
+            <div class="foto-container">
+                <div class="foto" onclick="openModal('src/fotos/2017.jpg')">
+                    <img src="src/fotos/2017.jpg" alt="Foto de 2017">
+                </div>
+                <div class="foto-data">2017</div>
+            </div>
+        
+            <div class="foto-container">
+                <div class="foto" onclick="openModal('src/fotos/2019.jpg')">
+                    <img src="src/fotos/2019.jpg" alt="Foto de 2019">
+                </div>
+                <div class="foto-data">2019</div>
+            </div>
+        
+            <div class="foto-container">
+                <div class="foto" onclick="openModal('src/fotos/2023.jpg')">
+                    <img src="src/fotos/2023.jpg" alt="Foto de 2023">
+                </div>
+                <div class="foto-data">2023</div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
         </div>
     </section>
     
